@@ -1056,6 +1056,22 @@ footer nav{
     .row-block .new-products .imghd{
         height: 230px;
     }
+    .tab ul li img {
+        width: 28px;
+        height: 28px;
+    }
+    .tab > ul{
+        display: none;
+    }
+    .tab .mobile-tab{
+        display: block;
+    }
+    .tab .mobile-tab ul{
+        display: flex;
+    }
+    .tab .mobile-tab ul li {
+        width: 20%;
+    }
     #product-list .products ul li{
         width: 176px;
         height: 300px;
